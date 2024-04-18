@@ -1,0 +1,203 @@
+.container {
+    display: flex;
+    align-items: center; /* вирівнювання елементів по вертикалі */
+    padding: 1% 0;  /* внутрішній відступ зверху та знизу на 5% */
+}
+.item {
+    white-space: nowrap; /* запобігає переносу тексту */
+    margin: 0 10px;      /* маргін між елементами */
+    margin-left: 5%;  /* маргін зліва */
+ 
+}
+#LOG {
+    margin-right: 40%; /* маргін справа */
+    margin-left: 1%; 
+}
+.my-button {
+    margin-left: 5%;
+    display: inline-block;
+    padding: 10px 20px;      /* внутрішній відступ від тексту до меж кнопки */
+    font-size: 16px;        /* розмір шрифту */
+    font-weight: bold;      /* жирний шрифт */
+    text-align: center;     /* вирівнювання тексту по центру */
+    text-decoration: none;  /* видалення декору підкреслення */
+    color: #ffffff;         /* колір тексту */
+    background-color: #007bff; /* синій колір фону кнопки */
+    border: none;           /* видалення рамки */
+    border-radius: 25px;    /* більший радіус для закруглення кути */
+    cursor: pointer;        /* зміна курсора при наведенні */
+    transition: background-color 0.3s ease; /* плавна зміна коліру фону при наведенні */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.my-button:hover {
+    background-color: #2686ee; /* темно-синій колір фону при наведенні курсора */
+}
+#fon1{
+    width: 100%; /* встановлює ширину фото на 100% від ширини контейнера */
+    height: auto; /* автоматична висота, щоб зберегти пропорції */
+}
+.block {
+    display: flex;           /* встановлення блока як flex-контейнера */
+    flex-direction: column;  /* встановлення вертикального напрямку */
+    font-size: 580%;
+    color: rgb(255, 255, 255);
+    margin-top: -43%; /* зменшення відстані зверху на 10 пікселів */
+    margin-left: 12%;
+}
+    
+.block span {
+    margin-bottom: -2%;     /* маргін знизу для відступу між словами */
+}
+.additional-text {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 484px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+	color: black;
+	margin-top: 25px;
+}
+.support-button {
+    background-color: white; /* Білий фон кнопки */
+    color: black; /* Чорний колір тексту кнопки */
+    padding: 21px 35px; /* Внутрішні відступи кнопки */
+    font-size: 16px; /* Розмір шрифту */
+    font-weight: bold; /* Жирний шрифт */
+    border-radius: 25px; /* Закругленість кутів */
+    cursor: pointer; /* Зміна курсору при наведенні */
+    transition: background-color 0.3s ease; /* Плавна зміна коліру фону при наведенні */
+    margin-top: 25px; /* Відступ зверху від попереднього тексту */
+}
+
+.support-button:hover {
+    background-color: #f0f0f0; /* Білий фон кнопки при наведенні */
+}
+.we {
+	margin-top: 260px;
+}
+.window {
+    position: absolute;
+    top: 1300; /* або встановіть bottom, якщо хочете визначити позицію від низу */
+    left: 0;
+    width: 100%;
+    background: #F1FDFF;
+    padding: 160px 71px;
+    box-sizing: border-box; /* щоб padding не впливав на ширину елемента */
+}
+.textq {
+	font-family: Montserrat;
+font-size: 46px;
+font-weight: 400;
+line-height: 55.2px;
+letter-spacing: -0.02em;
+text-align: left;
+width: 45%;
+height: 110px;
+gap: 0px;
+}
+.textw {
+	font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 45%;
+height: 144px;
+}
+.photo1 {
+    position: absolute; /* Встановлюємо абсолютне позиціонування */
+    bottom: 15%; /* Вирівнюємо фото по нижньому краю */
+    right: 10%; /* Вирівнюємо фото по правому краю */
+}
+.second-window {
+    position: absolute;
+	margin-top: 700px;
+    left: 0;
+    width: 100%;
+    background: #F1FDFF;
+    padding: 160px 71px;
+    box-sizing: border-box;
+}
+.window3 {
+    position: absolute;
+	margin-top: 1500px;
+    left: 0;
+    width: 100%;
+    background: #F1FDFF;
+    padding: 160px 71px;
+    box-sizing: border-box;
+}
+.text3 {
+	font-family: Montserrat;
+font-size: 35px;
+font-weight: 400;
+line-height: 32.73px;
+text-align: left;
+width: 45%;
+height: 132px;
+gap: 0px;
+}
+.photo2 {
+    z-index: 1; /* Встановлюємо значення z-index */
+    position: relative; /* Встановлюємо позиціонування */
+	float: right;
+	margin-bottom: 20px
+}
+
+.photo3 {
+    z-index: 2; /* Встановлюємо значення z-index більшим, щоб накладене фото було вище */
+    position: absolute; /* Встановлюємо позиціонування */
+}
+.me {
+	margin-top: 2100px;
+}
+.window4 {
+    bottom: 0; /* Встановлення позиції зверху */
+    left: 0;
+    width: 100%;
+    padding: 160px 71px;
+    box-sizing: border-box;
+    background: #F9FADF;
+}
+.text5 {
+	position: relative;
+	width: 336px;
+	top: 0px;
+height: 72px;
+gap: 0px;
+font-family: Montserrat;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+}
+.last{
+	margin-top: 20px
+}
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+		
+
+
+
+
